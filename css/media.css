@@ -1,0 +1,87 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.email{
+		margin-top: 27px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.home h2 {
+		text-align: center;
+	}
+	.home .palka {
+		width: 300px;
+	}
+	.contact input[type="text"] {
+		margin-left: 1px;
+	}
+	.contact textarea {
+		margin-left: 1px;
+	}
+	.home .mobile-btn {
+		float: right;
+		display: block;
+		background: none;
+		border: none;
+		outline: none;
+		font-size: 30px;
+		color: #fff;
+	}
+	.home nav ul {
+		display: none;
+	}
+	.sticky {
+		display: none! important;
+	}
+	.logotip {
+		position: relative;
+	}
+	.top-menu {
+		position: absolute;
+		background-color: gray;
+		left: 0%;
+		top: 0px;
+		margin-left: 0px;
+		padding: 20px 0px;
+		z-index: 50;
+	}
+	.top-menu li {
+		float: none;
+	}
+	.top-menu li {
+		margin-top: 10px;
+	}
+	.top-menu li:first-child{
+		margin-top: 0px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.home h2 {
+		text-align: center;
+	}
+	.home h1 {
+		margin-top: 70px;
+	}
+	.home .palka {
+		width: 300px;
+	}
+	#top {
+		display: none! important;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.home .palka {
+		width: 250px;
+	}
+}	
